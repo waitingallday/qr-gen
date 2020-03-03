@@ -1,0 +1,29 @@
+{
+  "name": "qr-bot",
+  "version": "0.0.1",
+  "description": "QR generating interface for slack",
+  "main": "index.js",
+  "engines": {
+    "node": "^12.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:waitingallday/qr-bot.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/qr-gen.js --out-dir functions",
+    "watch": "babel src/qr-gen.js --watch --out-dir functions"
+  },
+  "keywords": [],
+  "author": "Jason Smith",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "qrcode": "^1.4.4"
+  }
+}
