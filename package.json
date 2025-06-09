@@ -23,7 +23,7 @@
     "@babel/core": "^7.27.4",
     "@babel/plugin-transform-runtime": "^7.27.4",
     "@babel/preset-env": "^7.27.2",
-    "@babel/runtime": "^7.27.4",
+    "@babel/runtime": "^7.27.6",
     "qrcode": "^1.5.4"
   }
 }
